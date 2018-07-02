@@ -1,5 +1,5 @@
 # CausticFrog
-Simulation specifically designed to model the reaction of a system of orbiting particles to instantaneous mass loss. For more details refer to Penoyre & Haiman 2017 (in prep.)
+Simulation specifically designed to model the reaction of a system of orbiting particles to instantaneous mass loss. For more details refer to Penoyre & Haiman 2017 (https://ui.adsabs.harvard.edu/#abs/2018MNRAS.473..498P/abstract)
 
 The code applies to any spherically symmetric potential, and follows the radial evolution of shells of mass. The code tracks the inner and outer edge of each shell, whose radius evolves as a test particle. The amount of mass in each shell is fixed but multiple shells can overlap leading to higher densities. 
 
