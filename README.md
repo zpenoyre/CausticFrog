@@ -5,7 +5,7 @@ The code applies to any spherically symmetric potential, and follows the radial 
 
 The code performs leapfrog integration on these edges, recaluclating the enclosed mass (including self-gravity of all enclosed shells) of each edge at every time-step.
 
-The reason the code is set-up as such is to capture behaviour that is easily lost in n-body simulations or similar: that high denisites appear not just where many shells overlap, but also where edges of individual shells overlap and the volume of the shell goes to 0.
+The reason the code is set-up as such is to capture behaviour that is easily lost in n-body simulations or similar: that high densities appear not just where many shells overlap, but also where edges of individual shells overlap and the volume of the shell goes to 0.
 
 The shells are attached, edge to edge, in a "concertina" which spans all radii and cuts computation cost. Many concertinas can be evolved at once, and for systems with many initial eccentricities and phases each concertina correspondons to a single initial state.
 
